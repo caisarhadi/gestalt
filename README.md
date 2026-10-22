@@ -2,6 +2,8 @@
 
 This repository hands out a built Gestalt with the OFB26 project, so the OFB26 shader timeline can be worked on without building Gestalt. The download holds no source code and no footage.
 
+Gestalt is in an experimental state, earlier than an alpha release. It is handed out for the OFB26 shader timeline and the render of the OFB26 shader, which work in this build.
+
 ## Download
 
 Download `Gestalt-OFB26-2026-10-23.zip` from this repository's Releases page (release `ofb26-2026-10-23`).
