@@ -29,10 +29,10 @@ Extract the zip to `D:\`. The files then stand in `D:\CPM_Claude\Gestalt`:
 2. Choose File > Open Project… and open `D:\CPM_Claude\Gestalt\state\gestalt\projects\OFB26\OFB26.gestalt`.
 3. Open the timeline `OFB26_ShaderPlates` (6:30 at 30 fps). Its track Video 1 holds the six looks of the shader `ofb26_BrandTakeover`: ORBITAL VIEW (look 0), MORNING FOREST (look 1), UNDERWATER (look 2), ROLLING FIELDS (look 3), EV FOREST (look 4) and CRYSTALLINE (look 5).
 
-The delivery timelines `100_AIWHE_RedwoodsAM-Loop-A` to `152_AIWHE_Earth-Loop-C` also use footage, which is not in the download; their footage clips show as offline.
+The delivery timelines `100_AIWHE_RedwoodsAM-Loop-A` to `152_AIWHE_Earth-Loop-C` each read one Env file in `state\gestalt\projects\OFB26ootage`, named `Env <timeline>.mov` (`100_AIWHE_RedwoodsAM-Loop-A` reads `Env 102_AIWHE_RedwoodsAM-Loop-A.mov` and `150_AIWHE_Earth-Loop-A` reads `Env 151_AIWHE_Earth_loop-A.mov`, as those two were delivered). The download holds a black 2:40 dummy (15000x1344, 30 fps) under each of the 18 names, so every clip is online; the delivered Env files put in that folder under the same names take their place.
 
 The render queue (Render Jobs) holds 24 waiting jobs: first the six shader plates of `OFB26_ShaderPlates`, one per look, to `renders\AIWHE_<Look>_ShaderPlate_v003.mov` (ProRes 4444), as the After Effects projects read them; then the 18 delivery timelines `100_AIWHE_RedwoodsAM-Loop-A` to `152_AIWHE_Earth-Loop-C` (ProRes 422), each to `Z:\HOT_STORAGE\00_CurrentProjects\ORA261\xx_delivery\AIW Ellipse Screens\20261023\<timeline>\<timeline>.mov`.
 
 ## Build
 
-The build is Gestalt of 23 October 2026 (commit `d5b65df8` of `caisarhadi/CPM_Claude`, built at 23:30), with Vulkan as the graphics API where none was chosen (ProRes encoded on the GPU), the Blur effect's Repeat Edge Pixels and the Visual C++ runtime in `bin\gestalt`, so `Gestalt.exe` starts on Windows 11 with nothing to install; the project and the shaders are those of the same commit.
+The build is Gestalt of 23 October 2026 (commit `d5b65df8` of `caisarhadi/CPM_Claude`, built at 23:30), with Vulkan as the graphics API where none was chosen (ProRes encoded on the GPU), the Blur effect's Repeat Edge Pixels and the Visual C++ runtime in `bin\gestalt`, so `Gestalt.exe` starts on Windows 11 with nothing to install; the project and the shaders are those of commit `e11e0b7a`.
