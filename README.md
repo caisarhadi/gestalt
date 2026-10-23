@@ -31,6 +31,8 @@ Extract the zip to `D:\`. The files then stand in `D:\CPM_Claude\Gestalt`:
 
 The delivery timelines `100_AIWHE_RedwoodsAM-Loop-A` to `152_AIWHE_Earth-Loop-C` also use footage, which is not in the download; their footage clips show as offline.
 
+The render queue (Render Jobs) holds 24 waiting jobs: first the six shader plates of `OFB26_ShaderPlates`, one per look, to `renders\AIWHE_<Look>_ShaderPlate_v003.mov` (ProRes 4444), as the After Effects projects read them; then the 18 delivery timelines `100_AIWHE_RedwoodsAM-Loop-A` to `152_AIWHE_Earth-Loop-C` (ProRes 422), each to `Z:\HOT_STORAGE\00_CurrentProjects\ORA261\xx_delivery\AIW Ellipse Screens\20261023\<timeline>\<timeline>.mov`.
+
 ## Build
 
-The build is Gestalt of 23 October 2026 (commit `2d996fe3` of `caisarhadi/CPM_Claude`, built at 22:51), with the Blur effect's Repeat Edge Pixels and the Visual C++ runtime in `bin\gestalt`, so `Gestalt.exe` starts on Windows 11 with nothing to install; the project and the shaders are those of the same commit.
+The build is Gestalt of 23 October 2026 (commit `eef0fbff` of `caisarhadi/CPM_Claude`, built at 22:51), with the Blur effect's Repeat Edge Pixels and the Visual C++ runtime in `bin\gestalt`, so `Gestalt.exe` starts on Windows 11 with nothing to install; the project and the shaders are those of the same commit.
