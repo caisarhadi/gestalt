@@ -33,4 +33,4 @@ The delivery timelines `100_AIWHE_RedwoodsAM-Loop-A` to `152_AIWHE_Earth-Loop-C`
 
 ## Build
 
-The build is Gestalt of 23 October 2026 (commit `76dfe50b` of `caisarhadi/CPM_Claude`, built at 18:28), with the Blur effect's Repeat Edge Pixels; the project and the shaders are those of the same commit.
+The build is Gestalt of 23 October 2026 (commit `2d996fe3` of `caisarhadi/CPM_Claude`, built at 22:51), with the Blur effect's Repeat Edge Pixels and the Visual C++ runtime in `bin\gestalt`, so `Gestalt.exe` starts on Windows 11 with nothing to install; the project and the shaders are those of the same commit.
