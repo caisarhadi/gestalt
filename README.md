@@ -19,7 +19,7 @@ Download `Gestalt-OFB26-2026-10-23.zip` from this repository's Releases page (re
 Extract the zip to `D:\`. The files then stand in `D:\CPM_Claude\Gestalt`:
 
 - `bin\gestalt\Gestalt.exe` and its runtime, the Visual C++ runtime included.
-- `library`, which holds the shaders; the OFB26 shader is `library\examples\shaders\ofb26_BrandTakeover`.
+- `library`, which holds the shaders; the OFB26 shaders are `library\examples\shaders\ofb26_BrandTakeover` and `library\examples\shaders\ofb26_BrandTakeover_Var02`.
 - `assets`.
 - `state\gestalt\projects\OFB26`: the project file `OFB26.gestalt`, its timelines and the After Effects projects of the six looks.
 
@@ -27,10 +27,10 @@ Extract the zip to `D:\`. The files then stand in `D:\CPM_Claude\Gestalt`:
 
 1. Start `D:\CPM_Claude\Gestalt\bin\gestalt\Gestalt.exe`.
 2. Choose File > Open Project… and open `D:\CPM_Claude\Gestalt\state\gestalt\projects\OFB26\OFB26.gestalt`.
-3. The project opens on the timeline `OFB26_ShaderPlates` (6:30 at 30 fps). Its track Video 1 holds the six looks of the shader `ofb26_BrandTakeover`: ORBITAL VIEW (look 0), MORNING FOREST (look 1), UNDERWATER (look 2), ROLLING FIELDS (look 3), EV FOREST (look 4) and CRYSTALLINE (look 5).
+3. Open the timeline `OFB26_ShaderPlates` (6:30 at 30 fps). Its track Video 1 holds the six looks of the shader `ofb26_BrandTakeover`: ORBITAL VIEW (look 0), MORNING FOREST (look 1), UNDERWATER (look 2), ROLLING FIELDS (look 3), EV FOREST (look 4) and CRYSTALLINE (look 5).
 
-The other timelines of the project (`OFB26_EveningForest`, `OFB26_OrbitalView` and the rest) also use footage, which is not in the download; their footage clips show as offline.
+The delivery timelines `100_AIWHE_RedwoodsAM-Loop-A` to `152_AIWHE_Earth-Loop-C` also use footage, which is not in the download; their footage clips show as offline.
 
 ## Build
 
-The build is Gestalt of 21 October 2026 (commit `46cc40cc` of `caisarhadi/CPM_Claude`), the build OFB26 was made with; the project and the shader are those of commit `63ca476a` of 23 October 2026.
+The build is Gestalt of 23 October 2026 (commit `76dfe50b` of `caisarhadi/CPM_Claude`, built at 18:28), with the Blur effect's Repeat Edge Pixels; the project and the shaders are those of the same commit.
