@@ -33,4 +33,4 @@ The other timelines of the project (`OFB26_EveningForest`, `OFB26_OrbitalView` a
 
 ## Build
 
-The build is Gestalt of 21 October 2026 (commit `46cc40cc` of `caisarhadi/CPM_Claude`), the build OFB26 was made with; the project and the shader are those of commit `e6fc0219` of 23 October 2026.
+The build is Gestalt of 21 October 2026 (commit `46cc40cc` of `caisarhadi/CPM_Claude`), the build OFB26 was made with; the project and the shader are those of commit `63ca476a` of 23 October 2026.
