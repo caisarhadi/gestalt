@@ -35,4 +35,4 @@ The render queue (Render Jobs) holds 24 waiting jobs: first the six shader plate
 
 ## Build
 
-The build is Gestalt of 23 October 2026 (commit `eef0fbff` of `caisarhadi/CPM_Claude`, built at 22:51), with the Blur effect's Repeat Edge Pixels and the Visual C++ runtime in `bin\gestalt`, so `Gestalt.exe` starts on Windows 11 with nothing to install; the project and the shaders are those of the same commit.
+The build is Gestalt of 23 October 2026 (commit `d5b65df8` of `caisarhadi/CPM_Claude`, built at 23:30), with Vulkan as the graphics API where none was chosen (ProRes encoded on the GPU), the Blur effect's Repeat Edge Pixels and the Visual C++ runtime in `bin\gestalt`, so `Gestalt.exe` starts on Windows 11 with nothing to install; the project and the shaders are those of the same commit.
